@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     libmllite \
     libmplmpu
 
+# Sensor HAL
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(BOWSER_COMMON_FOLDER)/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
