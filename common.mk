@@ -18,6 +18,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(BOWSER_COMMON_FOLDER)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
+
 # Camera
 # PRODUCT_PACKAGES += \
 #     camera.omap4
