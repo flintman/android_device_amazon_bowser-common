@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
     $(BOWSER_COMMON_FOLDER)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl
+    android.hardware.bluetooth@1.0-impl \
+    libbt-vendor
 
 # Camera
 # PRODUCT_PACKAGES += \
