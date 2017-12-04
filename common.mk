@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
 #     camera.omap4
 
 # Device settings
-ADDITIONAL_BUILD_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=true \
     persist.lab126.touchnoisereject=1 \
     ro.nf.profile=2 \
